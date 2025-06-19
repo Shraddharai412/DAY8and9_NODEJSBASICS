@@ -1,15 +1,14 @@
 //task 1
 
-// var url = require('url');
-// const urlstring="https://www.vardhaman.org";
-// const pasredUrl = url.parse(urlstring,true);
-// console.log(pasredUrl.protocol)
-// console.log(pasredUrl.host)
-// console.log(pasredUrl.hostname)
-// console.log(pasredUrl.port)
-// console.log(pasredUrl.pathname)
-// console.log(pasredUrl.query.id)    
-
+var url = require('url');
+const urlstring="https://www.vardhaman.org";
+const pasredUrl = url.parse(urlstring,true);
+console.log(pasredUrl.protocol)
+console.log(pasredUrl.host)
+console.log(pasredUrl.hostname)
+console.log(pasredUrl.port)
+console.log(pasredUrl.pathname)
+console.log(pasredUrl.query.id)    
 //task 2
 // const url=require('url');
 // const urlobject={
