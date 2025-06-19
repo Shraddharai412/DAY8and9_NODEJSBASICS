@@ -1,3 +1,10 @@
+//custom module example 1
+
+// const rect=require("./rectangle");
+// console.log("Area of rectangle: " + rect.rectangleArea(5, 10));
+// console.log("Perimeter of rectangle: " + rect.rectanglePerimeter(5, 10));
+
+//custom module example 2
 const fs = require("fs");
 const readline = require("readline");
 const cal = require("./calcultaor");
